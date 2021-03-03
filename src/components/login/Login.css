@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;500&display=swap');
+
+:root{
+    --blue: #007bff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    color: #434343;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 17%;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.login-heading{
+    display: flex;
+    margin-bottom: 45px;
+    align-items: baseline;
+}
+
+.sub-heading{
+    font-family: 'Manrope';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+    margin-bottom: 20px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+
+}
+.bussiness-heading{
+    font-family: 'Manrope';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1B1DA6;
+
+}
+.login-heading img{
+    width: 87px;
+    height: 111px;
+}
+form{
+    width: 85%;
+}
+.maininput{
+    display: block;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 24px;
+    border-radius: 20px;
+    background-color: #f4f5f5;
+    margin: 15px 0;
+}
+
+.options{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #434343;
+    margin-bottom: 12px;
+}
+.options a{
+    color: #434343;
+}
+
+button{
+    display: block;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    outline:none;
+    width: 100%;
+    padding: 13px 45px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    background: linear-gradient(90deg, #2221A6 -4.65%, #7AB4DF 74.58%, rgba(233, 139, 187, 0.76) 94.38%);
+}
+.loginwith{
+    width: 85%;
+    border-radius: 20px;
+    margin: 15px 0;
+    padding: 13px 45px;
+    border: 1px solid ;
+    display: flex;
+    /* border-image-source: linear-gradient(90deg, #0C15A4 0%, #FF97BE 100%); */
+
+}    
+.google a{
+    flex-grow: 5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(90deg, #EA4335 0%, #FBBC05 23.74%, #34A853 45.8%, #4285F4 89.16%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+.linkedin a{
+    flex-grow: 5;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #0B66C3;
+}
+
+.icon img{
+    flex-grow: 1;
+    width: 23px;
+}
+
+.detail{
+    margin-left: 12%;
+}
+.detail img{
+    width: 294px;
+    height: 439px;
+
+}
+.signup{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
